@@ -22,10 +22,11 @@ package middleware
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/apache/incubator-answer/internal/base/handler"
-	"github.com/apache/incubator-answer/internal/base/reason"
-	"github.com/apache/incubator-answer/internal/repo/limit"
-	"github.com/apache/incubator-answer/pkg/encryption"
+
+	"github.com/answer-tester/incubator-answer/internal/base/handler"
+	"github.com/answer-tester/incubator-answer/internal/base/reason"
+	"github.com/answer-tester/incubator-answer/internal/repo/limit"
+	"github.com/answer-tester/incubator-answer/pkg/encryption"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/errors"
 	"github.com/segmentfault/pacman/log"

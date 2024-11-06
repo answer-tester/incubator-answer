@@ -20,10 +20,11 @@
 package middleware
 
 import (
-	"github.com/apache/incubator-answer/internal/base/constant"
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"
+
+	"github.com/answer-tester/incubator-answer/internal/base/constant"
+	"github.com/gin-gonic/gin"
 )
 
 // VisitAuth when user visit the site image, check visit token. This only for private mode.
